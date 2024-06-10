@@ -29,6 +29,17 @@
 		8B6A0DEA2BECF90B0022F8E2 /* LogFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6A0DE92BECF90B0022F8E2 /* LogFormViewModel.swift */; };
 		8B6A0DEC2BECFA620022F8E2 /* LogFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6A0DEB2BECFA620022F8E2 /* LogFormView.swift */; };
 		8B8D46132BEC45C5004FF132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B8D46122BEC45C5004FF132 /* Assets.xcassets */; };
+		8BA3ECBB2C15D70B004C3181 /* ChatGPTUI in Frameworks */ = {isa = PBXBuildFile; productRef = 8BA3ECBA2C15D70B004C3181 /* ChatGPTUI */; };
+		8BA3ECBF2C15D79C004C3181 /* AIAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3ECBE2C15D79C004C3181 /* AIAssistantView.swift */; };
+		8BA3ECC22C15DCEC004C3181 /* FunctionTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3ECC12C15DCEC004C3181 /* FunctionTools.swift */; };
+		8BA3ECC62C15E042004C3181 /* AIAssistantResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3ECC52C15E042004C3181 /* AIAssistantResponseView.swift */; };
+		8BA3ECC82C15E06B004C3181 /* AIAssistantTextChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3ECC72C15E06B004C3181 /* AIAssistantTextChatViewModel.swift */; };
+		8BA3ECCA2C15EB62004C3181 /* FunctionArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3ECC92C15EB62004C3181 /* FunctionArguments.swift */; };
+		8BA3ECCC2C15EB9E004C3181 /* FunctionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3ECCB2C15EB9E004C3181 /* FunctionResponse.swift */; };
+		8BA3ECCE2C15EC9E004C3181 /* FunctionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3ECCD2C15EC9E004C3181 /* FunctionsManager.swift */; };
+		8BA3ECD02C15FF0E004C3181 /* AIAssistantVoiceChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3ECCF2C15FF0E004C3181 /* AIAssistantVoiceChatViewModel.swift */; };
+		8BA3ECD22C16086F004C3181 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3ECD12C16086F004C3181 /* Date+Extension.swift */; };
+		8BA3ECD42C160FA7004C3181 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3ECD32C160FA7004C3181 /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +66,16 @@
 		8B6A0DE92BECF90B0022F8E2 /* LogFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFormViewModel.swift; sourceTree = "<group>"; };
 		8B6A0DEB2BECFA620022F8E2 /* LogFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFormView.swift; sourceTree = "<group>"; };
 		8B8D46122BEC45C5004FF132 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BA3ECBE2C15D79C004C3181 /* AIAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIAssistantView.swift; sourceTree = "<group>"; };
+		8BA3ECC12C15DCEC004C3181 /* FunctionTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionTools.swift; sourceTree = "<group>"; };
+		8BA3ECC52C15E042004C3181 /* AIAssistantResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIAssistantResponseView.swift; sourceTree = "<group>"; };
+		8BA3ECC72C15E06B004C3181 /* AIAssistantTextChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIAssistantTextChatViewModel.swift; sourceTree = "<group>"; };
+		8BA3ECC92C15EB62004C3181 /* FunctionArguments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionArguments.swift; sourceTree = "<group>"; };
+		8BA3ECCB2C15EB9E004C3181 /* FunctionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionResponse.swift; sourceTree = "<group>"; };
+		8BA3ECCD2C15EC9E004C3181 /* FunctionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsManager.swift; sourceTree = "<group>"; };
+		8BA3ECCF2C15FF0E004C3181 /* AIAssistantVoiceChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIAssistantVoiceChatViewModel.swift; sourceTree = "<group>"; };
+		8BA3ECD12C16086F004C3181 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		8BA3ECD32C160FA7004C3181 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +84,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B6A0DC82BECB8E80022F8E2 /* FirebaseFirestore in Frameworks */,
+				8BA3ECBB2C15D70B004C3181 /* ChatGPTUI in Frameworks */,
 				8B6A0DCA2BECB8E80022F8E2 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +112,7 @@
 		8B6A0DB32BECB7E20022F8E2 /* AIExpenseTracker */ = {
 			isa = PBXGroup;
 			children = (
+				8BA3ECBC2C15D786004C3181 /* AIAssistant */,
 				8B6A0DDC2BECD3CB0022F8E2 /* Views */,
 				8B6A0DD92BECD34C0022F8E2 /* ViewModels */,
 				8B6A0DCE2BECC9940022F8E2 /* Models */,
@@ -151,8 +174,49 @@
 				8B6A0DE52BECF07C0022F8E2 /* LogListView.swift */,
 				8B6A0DE72BECF4800022F8E2 /* LogListContainerView.swift */,
 				8B6A0DEB2BECFA620022F8E2 /* LogFormView.swift */,
+				8BA3ECD32C160FA7004C3181 /* ChartView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		8BA3ECBC2C15D786004C3181 /* AIAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				8BA3ECC32C15E011004C3181 /* ViewModels */,
+				8BA3ECC02C15DCDC004C3181 /* Models */,
+				8BA3ECBD2C15D790004C3181 /* Views */,
+				8BA3ECCD2C15EC9E004C3181 /* FunctionsManager.swift */,
+				8BA3ECD12C16086F004C3181 /* Date+Extension.swift */,
+			);
+			path = AIAssistant;
+			sourceTree = "<group>";
+		};
+		8BA3ECBD2C15D790004C3181 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8BA3ECBE2C15D79C004C3181 /* AIAssistantView.swift */,
+				8BA3ECC52C15E042004C3181 /* AIAssistantResponseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8BA3ECC02C15DCDC004C3181 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8BA3ECC12C15DCEC004C3181 /* FunctionTools.swift */,
+				8BA3ECC92C15EB62004C3181 /* FunctionArguments.swift */,
+				8BA3ECCB2C15EB9E004C3181 /* FunctionResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8BA3ECC32C15E011004C3181 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8BA3ECC72C15E06B004C3181 /* AIAssistantTextChatViewModel.swift */,
+				8BA3ECCF2C15FF0E004C3181 /* AIAssistantVoiceChatViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +238,7 @@
 			packageProductDependencies = (
 				8B6A0DC72BECB8E80022F8E2 /* FirebaseFirestore */,
 				8B6A0DC92BECB8E80022F8E2 /* FirebaseFirestoreSwift */,
+				8BA3ECBA2C15D70B004C3181 /* ChatGPTUI */,
 			);
 			productName = AIExpenseTracker;
 			productReference = 8B6A0DB12BECB7E20022F8E2 /* AIExpenseTracker.app */;
@@ -205,6 +270,7 @@
 			mainGroup = 8B6A0DA82BECB7E20022F8E2;
 			packageReferences = (
 				8B6A0DC52BECB8C30022F8E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				8BA3ECB92C15D70B004C3181 /* XCRemoteSwiftPackageReference "ChatGPTUI" */,
 			);
 			productRefGroup = 8B6A0DB22BECB7E20022F8E2 /* Products */;
 			projectDirPath = "";
@@ -235,19 +301,29 @@
 			files = (
 				8B6A0DD82BECCD2E0022F8E2 /* DatabaseManager.swift in Sources */,
 				8B6A0DD22BECCAA80022F8E2 /* ExpenseLog.swift in Sources */,
+				8BA3ECC22C15DCEC004C3181 /* FunctionTools.swift in Sources */,
+				8BA3ECD02C15FF0E004C3181 /* AIAssistantVoiceChatViewModel.swift in Sources */,
 				8B6A0DCD2BECC6170022F8E2 /* AppDelegate.swift in Sources */,
 				8B6A0DEA2BECF90B0022F8E2 /* LogFormViewModel.swift in Sources */,
 				8B6A0DEC2BECFA620022F8E2 /* LogFormView.swift in Sources */,
+				8BA3ECC62C15E042004C3181 /* AIAssistantResponseView.swift in Sources */,
 				8B6A0DDB2BECD35C0022F8E2 /* LogListViewModel.swift in Sources */,
+				8BA3ECC82C15E06B004C3181 /* AIAssistantTextChatViewModel.swift in Sources */,
 				8B6A0DE82BECF4800022F8E2 /* LogListContainerView.swift in Sources */,
+				8BA3ECCC2C15EB9E004C3181 /* FunctionResponse.swift in Sources */,
 				8B6A0DB72BECB7E20022F8E2 /* ContentView.swift in Sources */,
 				8B6A0DD62BECCC340022F8E2 /* Utils.swift in Sources */,
 				8B6A0DE22BECE4D40022F8E2 /* CategoryImageView.swift in Sources */,
+				8BA3ECD22C16086F004C3181 /* Date+Extension.swift in Sources */,
 				8B6A0DB52BECB7E20022F8E2 /* AIExpenseTrackerApp.swift in Sources */,
 				8B6A0DD02BECC9A50022F8E2 /* Category.swift in Sources */,
 				8B6A0DE02BECE2680022F8E2 /* SelectSortOrderView.swift in Sources */,
+				8BA3ECCA2C15EB62004C3181 /* FunctionArguments.swift in Sources */,
+				8BA3ECBF2C15D79C004C3181 /* AIAssistantView.swift in Sources */,
 				8B6A0DDE2BECD3DE0022F8E2 /* FilterCategoriesView.swift in Sources */,
 				8B6A0DE62BECF07C0022F8E2 /* LogListView.swift in Sources */,
+				8BA3ECD42C160FA7004C3181 /* ChartView.swift in Sources */,
+				8BA3ECCE2C15EC9E004C3181 /* FunctionsManager.swift in Sources */,
 				8B6A0DD42BECCBAD0022F8E2 /* Sort.swift in Sources */,
 				8B6A0DE42BECEE890022F8E2 /* LogItemView.swift in Sources */,
 			);
@@ -384,6 +460,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AIExpenseTracker/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Talk with AI Assistant";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -424,6 +501,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AIExpenseTracker/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Talk with AI Assistant";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -482,6 +560,14 @@
 				minimumVersion = 10.25.0;
 			};
 		};
+		8BA3ECB92C15D70B004C3181 /* XCRemoteSwiftPackageReference "ChatGPTUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/ChatGPTUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.12;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -494,6 +580,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8B6A0DC52BECB8C30022F8E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestoreSwift;
+		};
+		8BA3ECBA2C15D70B004C3181 /* ChatGPTUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BA3ECB92C15D70B004C3181 /* XCRemoteSwiftPackageReference "ChatGPTUI" */;
+			productName = ChatGPTUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

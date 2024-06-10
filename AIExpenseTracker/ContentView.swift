@@ -35,7 +35,7 @@ struct ContentView: View {
             }.tag(0)
             
             NavigationStack {
-                Text("AI Assistant")
+                AIAssistantView()
             }
             .tabItem {
                 Label("AI Assistant", systemImage: "waveform")
@@ -50,7 +50,7 @@ struct ContentView: View {
                     Label("Expenses", systemImage: "tray")
                 }
                 
-                NavigationLink(destination: Text("AI Assistant")) {
+                NavigationLink(destination: AIAssistantView()) {
                     Label("AI Assistant", systemImage: "waveform")
                 }
             }
