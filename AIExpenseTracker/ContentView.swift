@@ -40,6 +40,13 @@ struct ContentView: View {
             .tabItem {
                 Label("AI Assistant", systemImage: "waveform")
             }.tag(1)
+            
+            NavigationStack {
+                ExpenseReceiptScannerView()
+            }
+            .tabItem {
+                Label("Receipt Scanner", systemImage: "eye")
+            }.tag(2)
         }
     }
     
@@ -53,6 +60,11 @@ struct ContentView: View {
                 NavigationLink(destination: AIAssistantView()) {
                     Label("AI Assistant", systemImage: "waveform")
                 }
+                
+                NavigationLink(destination: ExpenseReceiptScannerView()) {
+                    Label("Receipt Scanner", systemImage: "eye")
+                }
+                
             }
         } detail: {
             LogListContainerView(vm: $vm)
@@ -64,3 +76,4 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+

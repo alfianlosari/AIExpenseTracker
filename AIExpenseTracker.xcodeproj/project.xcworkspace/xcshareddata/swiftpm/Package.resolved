@@ -1,13 +1,22 @@
 {
-  "originHash" : "9d6f506f24d77467fc55a0f5ba92830c8f755ff3284728c12d1d67d25a357031",
+  "originHash" : "9fab571616c69c376aa9d57084976d2b055624243399223e31a8802fd9de27a4",
   "pins" : [
     {
-      "identity" : "abseil-cpp-binary",
+      "identity" : "abseil-cpp-swiftpm",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/google/abseil-cpp-binary.git",
+      "location" : "https://github.com/firebase/abseil-cpp-SwiftPM.git",
       "state" : {
-        "revision" : "748c7837511d0e6a507737353af268484e1745e2",
-        "version" : "1.2024011601.1"
+        "revision" : "140793ccfa916fe62f965249669e59ef325ae33c",
+        "version" : "0.20240116.1"
+      }
+    },
+    {
+      "identity" : "aireceiptscanner",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alfianlosari/AIReceiptScanner",
+      "state" : {
+        "revision" : "8e2fe1a4747fdadec23ce39577711f9f2fcd6592",
+        "version" : "1.0.3"
       }
     },
     {
@@ -29,12 +38,21 @@
       }
     },
     {
+      "identity" : "boringssl-swiftpm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/firebase/boringssl-SwiftPM.git",
+      "state" : {
+        "revision" : "38b03401110f03bde32bc7e86ff4f815238ed2d3",
+        "version" : "0.32.1"
+      }
+    },
+    {
       "identity" : "chatgptswift",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/alfianlosari/ChatGPTSwift.git",
       "state" : {
-        "revision" : "eaaec98632c3a722695768c80335951d3a3b6c6a",
-        "version" : "2.2.5"
+        "revision" : "f8b052c4e1507857cdf1b698eef81a14c20977c0",
+        "version" : "2.3.1"
       }
     },
     {
@@ -92,12 +110,12 @@
       }
     },
     {
-      "identity" : "grpc-binary",
+      "identity" : "grpc-ios",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/google/grpc-binary.git",
+      "location" : "https://github.com/grpc/grpc-ios.git",
       "state" : {
-        "revision" : "e9fad491d0673bdda7063a0341fb6b47a30c5359",
-        "version" : "1.62.2"
+        "revision" : "2adbb0708f53823e670e940f3a8d0a5d4b5ee145",
+        "version" : "1.62.5"
       }
     },
     {
