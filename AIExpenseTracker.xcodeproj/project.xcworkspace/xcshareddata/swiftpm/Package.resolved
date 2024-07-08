@@ -2,12 +2,12 @@
   "originHash" : "94ce07d2f508c389cbd746c626cb2df4569d2b09828436efb12c5c4fb3cd14dd",
   "pins" : [
     {
-      "identity" : "abseil-cpp-swiftpm",
+      "identity" : "abseil-cpp-binary",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/firebase/abseil-cpp-SwiftPM.git",
+      "location" : "https://github.com/google/abseil-cpp-binary.git",
       "state" : {
-        "revision" : "140793ccfa916fe62f965249669e59ef325ae33c",
-        "version" : "0.20240116.1"
+        "revision" : "748c7837511d0e6a507737353af268484e1745e2",
+        "version" : "1.2024011601.1"
       }
     },
     {
@@ -35,15 +35,6 @@
       "state" : {
         "revision" : "a22083713ee90808d527d0baa290c2fb13ca3096",
         "version" : "1.21.1"
-      }
-    },
-    {
-      "identity" : "boringssl-swiftpm",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/firebase/boringssl-SwiftPM.git",
-      "state" : {
-        "revision" : "38b03401110f03bde32bc7e86ff4f815238ed2d3",
-        "version" : "0.32.1"
       }
     },
     {
@@ -110,12 +101,12 @@
       }
     },
     {
-      "identity" : "grpc-ios",
+      "identity" : "grpc-binary",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/grpc/grpc-ios.git",
+      "location" : "https://github.com/google/grpc-binary.git",
       "state" : {
-        "revision" : "2adbb0708f53823e670e940f3a8d0a5d4b5ee145",
-        "version" : "1.62.5"
+        "revision" : "e9fad491d0673bdda7063a0341fb6b47a30c5359",
+        "version" : "1.62.2"
       }
     },
     {

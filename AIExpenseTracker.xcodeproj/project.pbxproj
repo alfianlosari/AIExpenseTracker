@@ -3,15 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B255C102C3AD29900208452 /* AIReceiptScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 8B255C0F2C3AD29900208452 /* AIReceiptScanner */; };
 		8B6A0DB52BECB7E20022F8E2 /* AIExpenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6A0DB42BECB7E20022F8E2 /* AIExpenseTrackerApp.swift */; };
 		8B6A0DB72BECB7E20022F8E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6A0DB62BECB7E20022F8E2 /* ContentView.swift */; };
 		8B6A0DBD2BECB7E30022F8E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A0DBC2BECB7E30022F8E2 /* Preview Assets.xcassets */; };
-		8B6A0DC42BECB8990022F8E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A0DC32BECB8990022F8E2 /* GoogleService-Info.plist */; };
 		8B6A0DC82BECB8E80022F8E2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8B6A0DC72BECB8E80022F8E2 /* FirebaseFirestore */; };
 		8B6A0DCA2BECB8E80022F8E2 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8B6A0DC92BECB8E80022F8E2 /* FirebaseFirestoreSwift */; };
 		8B6A0DCD2BECC6170022F8E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6A0DCC2BECC6170022F8E2 /* AppDelegate.swift */; };
@@ -41,6 +39,12 @@
 		8BA3ECD02C15FF0E004C3181 /* AIAssistantVoiceChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3ECCF2C15FF0E004C3181 /* AIAssistantVoiceChatViewModel.swift */; };
 		8BA3ECD22C16086F004C3181 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3ECD12C16086F004C3181 /* Date+Extension.swift */; };
 		8BA3ECD42C160FA7004C3181 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3ECD32C160FA7004C3181 /* ChartView.swift */; };
+		8BDA05382C3C1E0100CDADA4 /* AIReceiptScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 8BDA05372C3C1E0100CDADA4 /* AIReceiptScanner */; };
+		8BDA053E2C3C1E3D00CDADA4 /* AddReceiptToExpenseConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDA05392C3C1E3D00CDADA4 /* AddReceiptToExpenseConfirmationView.swift */; };
+		8BDA053F2C3C1E3D00CDADA4 /* AddReceiptToExpenseConfirmationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDA053A2C3C1E3D00CDADA4 /* AddReceiptToExpenseConfirmationViewModel.swift */; };
+		8BDA05402C3C1E3D00CDADA4 /* ExpenseReceiptScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDA053B2C3C1E3D00CDADA4 /* ExpenseReceiptScannerView.swift */; };
+		8BDA05412C3C1E3D00CDADA4 /* Receipt+ExpenseLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDA053C2C3C1E3D00CDADA4 /* Receipt+ExpenseLog.swift */; };
+		8BDA05432C3C1E6300CDADA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BDA05422C3C1E6300CDADA4 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +53,6 @@
 		8B6A0DB62BECB7E20022F8E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B6A0DBA2BECB7E30022F8E2 /* AIExpenseTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AIExpenseTracker.entitlements; sourceTree = "<group>"; };
 		8B6A0DBC2BECB7E30022F8E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8B6A0DC32BECB8990022F8E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8B6A0DCB2BECB96C0022F8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8B6A0DCC2BECC6170022F8E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B6A0DCF2BECC9A50022F8E2 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
@@ -77,31 +80,19 @@
 		8BA3ECCF2C15FF0E004C3181 /* AIAssistantVoiceChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIAssistantVoiceChatViewModel.swift; sourceTree = "<group>"; };
 		8BA3ECD12C16086F004C3181 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		8BA3ECD32C160FA7004C3181 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		8BDA05392C3C1E3D00CDADA4 /* AddReceiptToExpenseConfirmationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReceiptToExpenseConfirmationView.swift; sourceTree = "<group>"; };
+		8BDA053A2C3C1E3D00CDADA4 /* AddReceiptToExpenseConfirmationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReceiptToExpenseConfirmationViewModel.swift; sourceTree = "<group>"; };
+		8BDA053B2C3C1E3D00CDADA4 /* ExpenseReceiptScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseReceiptScannerView.swift; sourceTree = "<group>"; };
+		8BDA053C2C3C1E3D00CDADA4 /* Receipt+ExpenseLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Receipt+ExpenseLog.swift"; sourceTree = "<group>"; };
+		8BDA05422C3C1E6300CDADA4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		8B255C062C3AD24600208452 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				AddReceiptToExpenseConfirmationView.swift,
-				AddReceiptToExpenseConfirmationViewModel.swift,
-				ExpenseReceiptScannerView.swift,
-				"Receipt+ExpenseLog.swift",
-			);
-			target = 8B6A0DB02BECB7E20022F8E2 /* AIExpenseTracker */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		8B255C032C3AD23000208452 /* ReceiptScanner */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (8B255C062C3AD24600208452 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = ReceiptScanner; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8B6A0DAE2BECB7E20022F8E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B255C102C3AD29900208452 /* AIReceiptScanner in Frameworks */,
+				8BDA05382C3C1E0100CDADA4 /* AIReceiptScanner in Frameworks */,
 				8B6A0DC82BECB8E80022F8E2 /* FirebaseFirestore in Frameworks */,
 				8BA3ECBB2C15D70B004C3181 /* ChatGPTUI in Frameworks */,
 				8B6A0DCA2BECB8E80022F8E2 /* FirebaseFirestoreSwift in Frameworks */,
@@ -131,17 +122,17 @@
 		8B6A0DB32BECB7E20022F8E2 /* AIExpenseTracker */ = {
 			isa = PBXGroup;
 			children = (
-				8B255C032C3AD23000208452 /* ReceiptScanner */,
+				8BDA053D2C3C1E3D00CDADA4 /* ReceiptScanner */,
 				8BA3ECBC2C15D786004C3181 /* AIAssistant */,
 				8B6A0DDC2BECD3CB0022F8E2 /* Views */,
 				8B6A0DD92BECD34C0022F8E2 /* ViewModels */,
 				8B6A0DCE2BECC9940022F8E2 /* Models */,
 				8B6A0DCB2BECB96C0022F8E2 /* Info.plist */,
 				8B6A0DB42BECB7E20022F8E2 /* AIExpenseTrackerApp.swift */,
+				8BDA05422C3C1E6300CDADA4 /* GoogleService-Info.plist */,
 				8B6A0DCC2BECC6170022F8E2 /* AppDelegate.swift */,
 				8B6A0DB62BECB7E20022F8E2 /* ContentView.swift */,
 				8B8D46122BEC45C5004FF132 /* Assets.xcassets */,
-				8B6A0DC32BECB8990022F8E2 /* GoogleService-Info.plist */,
 				8B6A0DBA2BECB7E30022F8E2 /* AIExpenseTracker.entitlements */,
 				8B6A0DBB2BECB7E30022F8E2 /* Preview Content */,
 				8B6A0DD52BECCC340022F8E2 /* Utils.swift */,
@@ -239,6 +230,17 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		8BDA053D2C3C1E3D00CDADA4 /* ReceiptScanner */ = {
+			isa = PBXGroup;
+			children = (
+				8BDA05392C3C1E3D00CDADA4 /* AddReceiptToExpenseConfirmationView.swift */,
+				8BDA053A2C3C1E3D00CDADA4 /* AddReceiptToExpenseConfirmationViewModel.swift */,
+				8BDA053B2C3C1E3D00CDADA4 /* ExpenseReceiptScannerView.swift */,
+				8BDA053C2C3C1E3D00CDADA4 /* Receipt+ExpenseLog.swift */,
+			);
+			path = ReceiptScanner;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -259,7 +261,7 @@
 				8B6A0DC72BECB8E80022F8E2 /* FirebaseFirestore */,
 				8B6A0DC92BECB8E80022F8E2 /* FirebaseFirestoreSwift */,
 				8BA3ECBA2C15D70B004C3181 /* ChatGPTUI */,
-				8B255C0F2C3AD29900208452 /* AIReceiptScanner */,
+				8BDA05372C3C1E0100CDADA4 /* AIReceiptScanner */,
 			);
 			productName = AIExpenseTracker;
 			productReference = 8B6A0DB12BECB7E20022F8E2 /* AIExpenseTracker.app */;
@@ -292,7 +294,7 @@
 			packageReferences = (
 				8B6A0DC52BECB8C30022F8E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				8BA3ECB92C15D70B004C3181 /* XCRemoteSwiftPackageReference "ChatGPTUI" */,
-				8B255C0E2C3AD29900208452 /* XCRemoteSwiftPackageReference "AIReceiptScanner" */,
+				8BDA05362C3C1E0100CDADA4 /* XCRemoteSwiftPackageReference "AIReceiptScanner" */,
 			);
 			productRefGroup = 8B6A0DB22BECB7E20022F8E2 /* Products */;
 			projectDirPath = "";
@@ -310,7 +312,7 @@
 			files = (
 				8B6A0DBD2BECB7E30022F8E2 /* Preview Assets.xcassets in Resources */,
 				8B8D46132BEC45C5004FF132 /* Assets.xcassets in Resources */,
-				8B6A0DC42BECB8990022F8E2 /* GoogleService-Info.plist in Resources */,
+				8BDA05432C3C1E6300CDADA4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,9 +326,12 @@
 				8B6A0DD82BECCD2E0022F8E2 /* DatabaseManager.swift in Sources */,
 				8B6A0DD22BECCAA80022F8E2 /* ExpenseLog.swift in Sources */,
 				8BA3ECC22C15DCEC004C3181 /* FunctionTools.swift in Sources */,
+				8BDA05412C3C1E3D00CDADA4 /* Receipt+ExpenseLog.swift in Sources */,
+				8BDA05402C3C1E3D00CDADA4 /* ExpenseReceiptScannerView.swift in Sources */,
 				8BA3ECD02C15FF0E004C3181 /* AIAssistantVoiceChatViewModel.swift in Sources */,
 				8B6A0DCD2BECC6170022F8E2 /* AppDelegate.swift in Sources */,
 				8B6A0DEA2BECF90B0022F8E2 /* LogFormViewModel.swift in Sources */,
+				8BDA053F2C3C1E3D00CDADA4 /* AddReceiptToExpenseConfirmationViewModel.swift in Sources */,
 				8B6A0DEC2BECFA620022F8E2 /* LogFormView.swift in Sources */,
 				8BA3ECC62C15E042004C3181 /* AIAssistantResponseView.swift in Sources */,
 				8B6A0DDB2BECD35C0022F8E2 /* LogListViewModel.swift in Sources */,
@@ -337,6 +342,7 @@
 				8B6A0DD62BECCC340022F8E2 /* Utils.swift in Sources */,
 				8B6A0DE22BECE4D40022F8E2 /* CategoryImageView.swift in Sources */,
 				8BA3ECD22C16086F004C3181 /* Date+Extension.swift in Sources */,
+				8BDA053E2C3C1E3D00CDADA4 /* AddReceiptToExpenseConfirmationView.swift in Sources */,
 				8B6A0DB52BECB7E20022F8E2 /* AIExpenseTrackerApp.swift in Sources */,
 				8B6A0DD02BECC9A50022F8E2 /* Category.swift in Sources */,
 				8B6A0DE02BECE2680022F8E2 /* SelectSortOrderView.swift in Sources */,
@@ -484,7 +490,7 @@
 				INFOPLIST_FILE = AIExpenseTracker/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Take receipt picture";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Talk with AI Assistant";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Get receipt picture";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Get receipt picture";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -527,7 +533,7 @@
 				INFOPLIST_FILE = AIExpenseTracker/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Take receipt picture";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Talk with AI Assistant";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Get receipt picture";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Get receipt picture";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -578,14 +584,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8B255C0E2C3AD29900208452 /* XCRemoteSwiftPackageReference "AIReceiptScanner" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/alfianlosari/AIReceiptScanner";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.4;
-			};
-		};
 		8B6A0DC52BECB8C30022F8E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -602,14 +600,17 @@
 				minimumVersion = 0.3.1;
 			};
 		};
+		8BDA05362C3C1E0100CDADA4 /* XCRemoteSwiftPackageReference "AIReceiptScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/AIReceiptScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		8B255C0F2C3AD29900208452 /* AIReceiptScanner */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8B255C0E2C3AD29900208452 /* XCRemoteSwiftPackageReference "AIReceiptScanner" */;
-			productName = AIReceiptScanner;
-		};
 		8B6A0DC72BECB8E80022F8E2 /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8B6A0DC52BECB8C30022F8E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
@@ -624,6 +625,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8BA3ECB92C15D70B004C3181 /* XCRemoteSwiftPackageReference "ChatGPTUI" */;
 			productName = ChatGPTUI;
+		};
+		8BDA05372C3C1E0100CDADA4 /* AIReceiptScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BDA05362C3C1E0100CDADA4 /* XCRemoteSwiftPackageReference "AIReceiptScanner" */;
+			productName = AIReceiptScanner;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
