@@ -1,5 +1,5 @@
 {
-  "originHash" : "9fab571616c69c376aa9d57084976d2b055624243399223e31a8802fd9de27a4",
+  "originHash" : "94ce07d2f508c389cbd746c626cb2df4569d2b09828436efb12c5c4fb3cd14dd",
   "pins" : [
     {
       "identity" : "abseil-cpp-swiftpm",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/alfianlosari/AIReceiptScanner",
       "state" : {
-        "revision" : "8e2fe1a4747fdadec23ce39577711f9f2fcd6592",
-        "version" : "1.0.3"
+        "revision" : "28a096926d2132b0171ea6a4d0c965c7e30d1b92",
+        "version" : "1.0.4"
       }
     },
     {
@@ -51,8 +51,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/alfianlosari/ChatGPTSwift.git",
       "state" : {
-        "revision" : "f8b052c4e1507857cdf1b698eef81a14c20977c0",
-        "version" : "2.3.1"
+        "revision" : "5d10da6f680a217ab458bea2402c41982599d525",
+        "version" : "2.3.2"
       }
     },
     {
@@ -60,8 +60,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/alfianlosari/ChatGPTUI.git",
       "state" : {
-        "revision" : "46446b22521ff3eb336777f779804ff9d9ec71ac",
-        "version" : "0.2.12"
+        "revision" : "3c3e11c349092f0cd8e909a1cf3d0609c035628c",
+        "version" : "0.3.1"
       }
     },
     {
@@ -204,8 +204,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-cmark.git",
       "state" : {
-        "revision" : "f218e5d7691f78b55bfa39b367763f4612486c35",
-        "version" : "0.3.0"
+        "revision" : "3bc2f3e25df0cecc5dc269f7ccae65d0f386f06a",
+        "version" : "0.4.0"
       }
     },
     {
@@ -222,8 +222,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-http-types",
       "state" : {
-        "revision" : "9bee2fdb79cc740081abd8ebd80738063d632286",
-        "version" : "1.1.0"
+        "revision" : "1ddbea1ee34354a6a2532c60f98501c35ae8edfa",
+        "version" : "1.2.0"
       }
     },
     {
@@ -240,8 +240,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-markdown.git",
       "state" : {
-        "revision" : "e4f95e2dc23097a1a9a1dfdfe3fe3ee44de77378",
-        "version" : "0.3.0"
+        "revision" : "4aae40bf6fff5286e0e1672329d17824ce16e081",
+        "version" : "0.4.0"
       }
     },
     {
