@@ -10,7 +10,8 @@ Realtime Expense Tracker SwiftUI App
 - Sorty by date, amount, name. Ascending or Descending.
 - Add, Edit, Delete Expense Log.
 - Supports iOS/iPadOS, macOS, visionOS.
-- AI Assistant: Chat by Text/Voice (Coming Soon)
+- AI Assistant: Chat by Text/Voice.
+- AI Receipt Scanner.
 
 ## Requirements
 - Xcode 15
